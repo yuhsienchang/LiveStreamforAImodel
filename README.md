@@ -1,4 +1,4 @@
-# Project
+# Project - LiveStream for AI model
 
 ### Step 1 :
 
