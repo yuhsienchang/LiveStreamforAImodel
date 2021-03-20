@@ -5,6 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const axios = require('axios');
 var indexRouter = require('./routes/index');
+var image_inferenceRouter = require('./routes/image_inference');
+var live_inferenceRouter = require('./routes/live_inference');
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -23,7 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/', indexRouter);
-
+app.use('/imageinference', image_inferenceRouter);
+app.use('/liveinference', live_inferenceRouter);
 app.use('/users', usersRouter);
 
 
