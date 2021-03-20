@@ -2,14 +2,14 @@
 
 ### Step 1 :
 
-flask AI realtime:
- 1. cd YU_Demo_True/flaskAI/LiveStream-Flask-API/
+run flask AI realtime:
+ 1. cd LiveStreamforAImodel/flaskAI/LiveStream-Flask-API/
  2. python3 yolov4-realtime.py
 
 ### Step 2 :
 
-nodejs express :
- 1. cd YU_Demo_True/
+run nodejs express :
+ 1. cd LiveStreamforAImodel/
  2. node bin/www
 
 ### Step 3 :
